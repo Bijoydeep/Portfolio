@@ -57,8 +57,8 @@ Bijoy Deep Mallick
 
 ## 🔗‍️ Social  Profiles
 
-- GitHub: https://github.com/Bijoydeep
 - LinkedIn: https://linkedin.com/in/bijoy-deep-mallick
+- X/Twitter: https://x.com/BijoyDeep01
 - Instagram: https://instagram.com/bijoydeep_15
 
 ⭐ If you found this project helpful, don't forget to give it a star!
