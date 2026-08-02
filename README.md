@@ -55,6 +55,8 @@ https://your-portfolio.vercel.app
 
 Bijoy Deep Mallick
 
+## Social  Profiles
+
 - GitHub: https://github.com/Bijoydeep
 - LinkedIn: https://linkedin.com/in/bijoy-deep-mallick
 - Instagram: https://instagram.com/bijoydeep_15
