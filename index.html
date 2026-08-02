@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bijoy Deep — Portfolio</title>
+<meta name="description" content="Bijoy Deep — Electronics &amp; Communication Engineering student, AI &amp; web developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- signature signal-trace canvas -->
+<svg id="trace-canvas" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="traceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7761F4"/>
+      <stop offset="100%" stop-color="#45E0C4"/>
+    </linearGradient>
+  </defs>
+  <path id="trace-path" d=""/>
+  <g id="trace-nodes"></g>
+</svg>
+
+<header>
+  <nav>
+    <div class="logo"><span class="dot"></span>BIJOY&nbsp;DEEP&nbsp;MALLICK</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <span class="eyebrow mono">● AVAILABLE FOR INTERNSHIPS &amp; COLLABORATIONS</span>
+      <h1><span>Bijoy Deep Mallick</span></h1>
+      <p class="role">Electronics &amp; Communication Engineering student who designs and ships <strong>full-stack 
+        AI applications</strong> — from LLM-powered tools to real-time web apps — with a habit of shipping fast at 
+        hackathons.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-meta">
+        <!--<div><div class="num">6+</div><div class="lbl">Projects Shipped</div></div>-->
+        <div><div class="num">2028</div><div class="lbl">Expected Graduation</div></div>
+        <div><div class="num">ECE</div><div class="lbl">Core Discipline</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">01 / ABOUT</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid reveal">
+        <div class="avatar-wrap">
+          <div class="avatar-ring"></div>
+          <div class="avatar">
+            <img src="./photo.webp" alt="Bijoy Deep profile photo" id="profileImg">
+            <span class="initials" id="initialsFallback">BD</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>I'm <strong>Bijoy Deep Mallick</strong>, a B.Tech student in <strong>Electronics &amp; 
+            Communication Engineering</strong> at the Academy of Technology, Hoogly, West Bengal, expecting to 
+            graduate in 2028. My background in electronics gives me a systems-level way of thinking that carries 
+            straight into how I build software — breaking problems into signals, states, and clean interfaces.</p>
+          <p>Outside coursework, I spend most of my time building <strong>polished, full-featured web applications 
+            and developer tools</strong>, often powered by LLMs, and testing that work under pressure at <strong>
+            hackathons</strong>. I care about interfaces that feel considered — dark, focused, fast — and about 
+            code that stays readable once the deadline passes.</p>
+          <p>I'm currently exploring opportunities to apply this outside solo projects — internships, freelance work, 
+            or collaborative builds where I can learn from a real engineering team.</p>
+          <div class="chip-row">
+            <span class="chip">Kanchrapara, West Bengal, India</span>
+            <span class="chip">B.Tech ECE · 2028</span>
+            <span class="chip">Open to internships</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">02 / EDUCATION</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="reveal">
+        <div class="edu-item">
+          <h3>B.Tech in Electronics &amp; Communication Engineering</h3>
+          <div class="edu-meta mono">ACADEMY OF TECHNOLOGY, WEST BENGAL · EXPECTED 2028</div>
+          <p>Coursework spanning signals &amp; systems, embedded electronics, and communication networks, paired 
+            with self-directed learning in AI application development, full-stack web engineering, and system design.</p>
+        </div>
+        <div class="edu-item">
+          <h3>Higher Secondary Education</h3>
+          <div class="edu-meta mono">SCIENCE STREAM · WEST BENGAL</div>
+          <p>Built the foundation in mathematics and physics that later pulled me toward electronics and, eventually
+            , software.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">03 / SKILLS</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>C (DSA)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>AI &amp; LLM Tooling</h4>
+          <ul>
+            <li>Claude API integration</li>
+            <li>Prompt engineering</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Systems &amp; Data</h4>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Anigravity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- CERTIFICATIONS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">04 / CERTIFICATIONS</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>Bharatiya Antariksh Hackathon 2025</h4>
+        </div>
+        <div class="skill-card">
+          <h4>Python Problem Solving</h4>
+        </div>
+        <div class="skill-card">
+          <h4>VLSI for Beginners</h4>
+        </div>
+        <div class="skill-card">
+          <h4>Critical Thinking in the AI Era</h4>
+        </div>
+       <div class="skill-card">
+          <h4>Micropython for Beginners</h4>
+       </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">05 / PROJECTS</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid reveal">
+
+        <div class="project-card">
+          <div class="project-top"><span class="project-index mono">01</span></div>
+          <h3>AirGuard NOC Copilot</h3>
+          <p>An autonomous, air-gapped offline AI NOC copilot for SD-WAN/MPLS networks, built for the Bharatiya 
+            Antariksh Hackathon 2025. Covers problem framing, system architecture, and a live NOC dashboard 
+            wireframe.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><span class="project-index mono">02</span></div>
+          <h3>Standup AI (PS-08)</h3>
+          <p>A developer tool that replaces daily standups with async, AI-powered reporting — multi-profile 
+            journaling, structured JSON summarization, automatic blocker detection, weekly digests, and Markdown/
+            PDF export.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><span class="project-index mono">03</span></div>
+          <h3>SplitDash (PS-05)</h3>
+          <p>A real-time bill splitter with zero-network tab sync via BroadcastChannel, a claim state machine that 
+            resolves race conditions, and a luxury dark-mode React rebuild.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><span class="project-index mono">04</span></div>
+          <h3>NutriWise</h3>
+          <p>A single-file HTML nutrition dashboard with authentication, an AI chatbot, meal filtering, hydration 
+            tracking, and macro visualization — zero external dependencies beyond Google Fonts.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top"><span class="project-index mono">06</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A performance-tuned personal site with a cyberpunk-to-refined dark aesthetic, a signature purple accent,
+             and smooth, GPU-friendly hover interactions across certification and skill cards.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="section-tag">CONTACT ME</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-wrap reveal">
+        <div>
+          <h2>Let's build something worth shipping.</h2>
+          <p>Open to internships, freelance work, and collaborative projects. The fastest way to reach me is email 
+            — I try to reply within a day or two.</p>
+          <div class="social-links">
+            <a href="mailto:bijoydeepmallick@gmail.com">
+              <span class="link-left">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+                Email
+              </span>
+              <span class="arrow">↗</span>
+            </a>
+            <a href="https://github.com/Bijoydeep" target="_blank" rel="noopener">
+              <span class="link-left">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.66 1.24 3.31.94.1-.73.4-1.24.72-1.52-2.52-.29-5.17-1.26-5.17-5.62 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.9 10.9 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.66 5.33-5.19 5.61.41.35.77 1.04.77 2.11 0 1.52-.01 2.75-.01 3.12 0 .3.2.66.79.55A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+                GitHub
+              </span>
+              <span class="arrow">↗</span>
+            </a>
+            <a href="https://linkedin.com/in/bijoy-deep-mallick" target="_blank" rel="noopener">
+              <span class="link-left">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-.99 1.82-2.04 3.75-2.04 4.01 0 4.75 2.55 4.75 5.86V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.45-2.16 2.96V21h-4V9Z"/></svg>
+                LinkedIn
+              </span>
+              <span class="arrow">↗</span>
+            </a>
+            <a href="https://x.com/BijoyDeep01" target="_blank" rel="noopener">
+              <span class="link-left">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.3l-7.2 8.2L23.5 22h-6.6l-5.2-6.8L5.7 22H2.4l7.7-8.8L1.5 2h6.8l4.7 6.2L18.9 2Zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20Z"/></svg>
+                X / Twitter
+              </span>
+              <span class="arrow">↗</span>
+            </a>
+            <a href="https://instagram.com/bijoydeep_15" target="_blank" rel="noopener">
+              <span class="link-left">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+                Instagram
+              </span>
+              <span class="arrow">↗</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-card" id="contactForm">
+          <div class="field">
+            <label for="cname">Name</label>
+            <input type="text" id="cname" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="cemail">Email</label>
+            <input type="email" id="cemail" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="cmsg">Message</label>
+            <textarea id="cmsg" rows="4" placeholder="What are you building?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> BIJOY DEEP — DESIGNED &amp; BUILT WITH INTENT</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#home" class="back-top">↑ Back to top</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
