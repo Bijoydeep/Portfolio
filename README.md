@@ -31,7 +31,7 @@ A modern, responsive, and interactive portfolio website showcasing my skills, pr
 Visit the live website:
 
 ```
-[https://bijoydeep.github.io/Portfolio/]
+https://bijoydeep.github.io/Portfolio/
 ```
 
 ## 📌 Sections Included
