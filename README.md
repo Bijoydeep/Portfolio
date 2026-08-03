@@ -29,13 +29,18 @@ A modern, responsive, and interactive portfolio website showcasing my skills, pr
 ## 🌍 Live Demo
 
 Visit the live website:
+
 Continue with the link:
 ```
 https://bijoydeep.github.io/Portfolio/
 ```
-else scan the QR Code
-<img width="100" height="100" alt="1785747022616" src="https://github.com/user-attachments/assets/fdf15075-49af-4d11-8d19-937e1bc77bfa" />
+OR
 
+Scan the QR Code
+
+<p align="center">
+  <img width="250" height="250" alt="qr" src="https://github.com/user-attachments/assets/fd91d1ef-bdf5-4513-ba10-67e86c0d3ade" />
+</p>
 
 ## 📌 Sections Included
 
